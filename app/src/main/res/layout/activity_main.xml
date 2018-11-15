@@ -38,9 +38,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView3" android:textColor="@android:color/white"
             android:fontFamily="@font/montserrat" android:textSize="22sp"
-            tools:layout_editor_absoluteY="198dp" tools:layout_editor_absoluteX="77dp" android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
     <TextView
-            android:text="Find a team in your city & dominate the league"
+            android:text="Find a team in your city &amp; dominate the league"
             android:layout_width="218dp"
             android:layout_height="50dp"
             android:id="@+id/textView4" android:textColor="@android:color/white"
