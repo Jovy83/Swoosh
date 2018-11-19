@@ -1,4 +1,4 @@
-package com.digigames_interactive.swoosh
+package com.digigames_interactive.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

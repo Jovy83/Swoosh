@@ -1,8 +1,8 @@
-package com.digigames_interactive.swoosh
+package com.digigames_interactive.swoosh.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.digigames_interactive.swoosh.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
